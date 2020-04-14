@@ -1,15 +1,11 @@
 import React, { Component } from 'react'
-
+import { Redirect } from 'react-router-dom';
 export default class Startpage extends Component {
-
-    componentDidMount(){
-        // window.location.replace("/home")
-    }
 
     render() {
         return (
-            <div style={{marginBottom:'80vh'}}>
-
+            <div>
+                    <Redirect to='/home'/>
             </div>
         )
     }
