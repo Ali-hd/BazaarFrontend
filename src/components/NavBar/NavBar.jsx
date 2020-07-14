@@ -57,7 +57,7 @@ class NavBar extends Component {
                     <Navbar.Brand id="nav-brandd" style={{ color: 'white', fontWeight: '600' }}><Link style={{textDecoration:'none', color: 'inherit'}} to="/home" title="Home"><Icon name='handshake outline' /> OPEN BAZAAR </Link></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav style={{ marginTop: '5px', marginBottom: '5px' }} className="mr-auto">
+                        <Nav style={{ marginTop: '5px', marginBottom: '5px', width: '100%' }} className="mr-auto">
                             <Menu inverted pointing secondary id='menuu-navv'>
 
                             <Link style={{textDecoration:'none', color: 'inherit'}} to="/home" title="Go to Home">
